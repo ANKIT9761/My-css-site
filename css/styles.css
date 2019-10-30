@@ -1,18 +1,26 @@
 body{
-  margin:0;
   text-align: center;
   font-family: 'Merriweather', serif;
+  margin:0;
 }
 h1{
-  margin:0 auto;
-  width:20%;
+  margin:20px auto 0 auto;
   font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  color: #66BFBF;
+  line-height: 1.5;
 }
 h2{
   font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+h3{
+  color: #11999E;
 }
 .Top-Container{
-  background-color: #64ccda;
+  background-color: #EAF6F6;
   position: relative;
   padding-top:100px;
 }
@@ -22,13 +30,12 @@ h2{
   width:200px;
   background-color:#d55252;
 }
-.Bottom-Container{
-  height:200px;
-  width:200px;
-  background-color:#851de0;
+.bottom-container{
+  background-color:#66BFBF ;
+  padding: 30px;
 }
 .pro{
-  text-decoration: underline;
+  text-decoration:line-through;
 }
 .top-cloud{
   position: absolute;
@@ -39,4 +46,44 @@ h2{
   position: absolute;
   left: 300px;
   bottom:500px;
+}
+.footer-link{
+  color: #11999E;
+  margin: 10px;
+}
+.skill-row{
+  display: inline-block;
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.development{
+  width: 25%;
+  float: left;
+}
+.games{
+  width: 25%;
+  float: right;
+  margin-right: 20px;
+}
+hr{
+  width: 5%;
+  border-style: dotted none none none;
+  border-width: 5px;
+  border-color: #EAF6F6;
+
+}
+.about{
+  line-height: 3;
+}
+.btn{
+  display:inline-block;
+  background-color: #11999e;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  padding:15px;
+  font-size: 1.3em;
+  font-family: 'Montserrat', sans-serif;
+  margin:40px;
 }
